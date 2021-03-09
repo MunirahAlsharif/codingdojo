@@ -1,0 +1,75 @@
+C:\Users\munir\Desktop\Week6> truffle develop
+Truffle Develop started at http://127.0.0.1:9545/
+
+Accounts:
+(0) 0xc4132270e258381f6d86d170acda6b0f98d46c28
+(1) 0x6281c01682abff2930e5ff8da92f4277bcb03d65
+(2) 0x4eb42c6006397dffb91f2d75b78d5a08f20ea307
+(3) 0x4e68c93e7afa0581ea0ce9ce49acf9ed48864a15
+(4) 0x29196e7b95e7dd3447f1152cee4ba8e1d5401a72
+(5) 0x51dd8c88b473103abdc73ffb4a27fd1bb0b477aa
+(6) 0x3f5bd8301d9d502780d8b72d8cf3e8ae2d4c7ebf
+(7) 0xdcd843541402af2c01e62328a25e7345561999c0
+(8) 0x8f46b9c0d61742fa9dfc014701abe6e99d202316
+(9) 0x262d5656a9f4a937220266f3275fa19a737cbde6
+
+Private Keys:
+(0) 302bd210b7ccc95cf88c67ff0631f87939c7fc6fd80e17bfe5f418d41de6b225
+(1) a1f32e1af8d9bffb1b71b4e57a0c6a9a5656444f047486922d6ca4ec298f8349
+(2) 75cae6e51bd4dbd9b0a451b15303c3ace39eee4eea746e887c67a9fc2e379f81
+(3) 419d85d71bb74f848f32c0d2db04f83f2ed04df62166f6c82d7fe3915c12362e
+(4) ebeb1ddab71fb8412bd68159598bccd49fa67a7993ce2da1a427f05a2a74ce55
+(5) 9eb991635908090b8b53dc369eff9d31b39916453e60fd02060cb6ac0d585a75
+(6) 05361e52e133752ed029059e421b0e151ed4c53cac4c4632af1717f7e8ef565f
+(7) fcb7597f0938d53120b9bcfa6dbffd7ef48d2499425d1f991eaf1cbfd4da4a79
+(8) ead0826bd208f36e73b09d2a716218180ab2990e603bca1a0b587aaa124738c2
+(9) a66b368a430e0f338859908a4ab764dd8a74a6649fb5407201db1565396f5a25
+
+Mnemonic: south merge when river expire vacuum chief cage blush mix state nut
+
+⚠️  Important ⚠️  : This mnemonic was created for you by Truffle. It is not secure.
+Ensure you do not use it on production blockchains, or else you risk losing funds.
+
+truffle(develop)> test
+Using network 'develop'.
+
+
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+
+
+  Contract: Insurance
+    √ should add a product (432ms)
+
+
+  1 passing (574ms)
+
+
+truffle(develop)> migrate
+
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+Network up to date.
+
+truffle(develop)> test
+Using network 'develop'.
+
+
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+
+
+  Contract: Insurance
+    √ should add a product (395ms)
+
+
+  1 passing (529ms)
+
+
+truffle(develop)>
